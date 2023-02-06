@@ -1,0 +1,13 @@
+cr:
+  version: 0.0.1
+  secrets:
+    - name: ccr.ccs.tencentyun.com
+      type: dockerconfigjson
+      data: ""
+tls:
+  version: 0.0.1
+  secrets:
+    - name: tls-ysicing-net
+      type: tls
+      key: ""
+      crt: ""
